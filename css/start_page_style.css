@@ -1,0 +1,100 @@
+header
+{
+	display: inline-flex;
+	text-align: left;
+	width: 100%;
+	orientation: landscape;
+	box-sizing: border-box;
+	border: 4px solid;
+	border-radius: 25px;
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))
+}
+
+#header_logo
+{
+	align-self: flex-start;
+	/*background-color: yellow;*/
+}
+
+h1
+{
+	width:60%;
+	margin-left: 20px;
+}
+
+/*THIS AREA FOR NAV BAR START*/
+.navigation_bar_header
+{
+	align-self:flex-end;
+	align-self: center;
+	text-align:right;
+	/*background-color: red;*/
+}
+
+li
+{
+	margin-left: 10px;
+	display: inline;
+}
+/*THIS AREA FOR NAV BAR END*/
+
+body
+{ 
+	/*background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);*/
+	background-image: url("/home/zack83/Dropbox/Tripura_University/mausam/assets/background03.jpg");
+	background-size: cover;
+}
+
+section
+{
+	display: grid;
+}
+
+.right_section
+{
+	border-radius: 25px;
+	margin:10px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 4px solid;
+	width: 20pc;
+	height: 30pc;
+	float: right;
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))
+}
+
+
+.left_section
+{
+	border-radius: 25px;
+	margin:10px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 4px solid;
+	width: 20pc;
+	height:30pc;
+	float: left;
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))
+}
+
+
+.mid_position
+{
+	border-radius: 25px;	
+	margin:10px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 4px solid;
+	width: auto;
+	height:30pc;
+	align-self: center;
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))
+}
+
+footer{
+	/*background-color: yellow;*/
+	margin:10px;
+	align-self: center;
+	text-align: center;
+
+}
