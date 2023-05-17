@@ -45,6 +45,11 @@ body
 	background-size: cover;
 }
 
+.main_section
+{
+		margin-top: 10px;
+}
+
 section
 {
 	display: grid;
@@ -53,7 +58,7 @@ section
 .right_section
 {
 	border-radius: 25px;
-	margin:10px;
+	margin-left:10px;
 	text-align: center;
 	box-sizing: border-box;
 	border: 4px solid;
@@ -67,7 +72,7 @@ section
 .left_section
 {
 	border-radius: 25px;
-	margin:10px;
+	margin-right:10px;
 	text-align: center;
 	box-sizing: border-box;
 	border: 4px solid;
@@ -80,8 +85,7 @@ section
 
 .mid_position
 {
-	border-radius: 25px;	
-	margin:10px;
+	border-radius: 25px;
 	text-align: center;
 	box-sizing: border-box;
 	border: 4px solid;
