@@ -1,127 +1,157 @@
-header
-{
-	display: inline-flex;
-	text-align: left;
-	width: 100%;
-	orientation: landscape;
-	box-sizing: border-box;
-	border: 4px solid;
-	border-radius: 25px;
-	background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-/*	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))*/
-}
-
-#header_logo
-{
-	align-self: flex-start;
-}
-
-h1
-{
-	width:60%;
-	margin-left: 20px;
-}
-
-.navigation_bar_header
-{
-	align-self:flex-end;
-	align-self: center;
-	text-align:right;
-}
-
-li
-{
-	margin-left: 10px;
-	display: inline;
-}
-
 body
 {
-/*	background-image: url("/home/zack83/Dropbox/Tripura_University/mausam/assets/background03.jpg");*/
-	background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+	font-family: 'Roboto Mono', monospace;
+	background-color: #4158D0;
 	height: 100vh;
+
+/*	background-image : url('https://source.unsplash.com/1600x900/?weather');*/
+}
+
+.container
+{
+	display: flex;
+  flex-direction:column; 
+}
+
+.top_section{
+	border: 5px solid;
+	border-radius: 40px;
+	margin: 10px;
+}
+
+.logo_search{
+  display: flex;
+}
+
+.header_img{
+	padding: 0.5em;
+}
+
+.head{
+	font-size: 50px;
+	margin-left: 10px;
+}
+
+.search_bar{
+	margin-top: 6.5em;
+	margin-left: 20px;
+	width: 40em;
+	height: 3em;
+	padding: 1px 15px;
+	border: 2px solid;
+	border-radius: 20px;
+}
+
+button{
+	margin-top: 6.5em;
+	width: 3.5em;
+	height: 3.5em;
+	margin-left: 1em;
+	border-radius: 50%;
+	outline: none;
+}
+
+ul{
+	list-style-type: none;
+	margin: none;
+}
+
+li{
+	float: left;
+	margin-bottom: 20px;
+}
+
+a{
+	display: block;
+	padding: 10px
+}
+
+.container_section
+{
+	display: inline-flex;
 }
 
 .main_section
 {
-		margin-top: 10px;
-}
-
-section
-{
-	display: grid;
-}
-
-.right_section
-{
 	border-radius: 25px;
-	margin-left:10px;
-	text-align: center;
-	box-sizing: border-box;
-	border: 4px solid;
-	width: 20pc;
-	height: 30pc;
-	float: right;
-	background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-/*	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));*/
+	border: 5px solid;
+    text-align: center;
+	margin : 10px;
+	width: 70em;
+	padding: 10px; 
 }
-
 
 .left_section
 {
 	border-radius: 25px;
-	margin-right:10px;
-	text-align: center;
-	box-sizing: border-box;
-	border: 4px solid;
-	width: 20pc;
-	height:30pc;
-	float: left;
-	background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-/*	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))*/
-}
-
-
-.mid_position
-{
-	border-radius: 25px;
-	text-align: center;
-	box-sizing: border-box;
-	border: 4px solid;
-	width: auto;
-	height:30pc;
-	align-self: center;
-	background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-/*	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))*/
+	border: 5px solid;
+  	text-align: center;
+	margin : 10px;
+	width: 40em;
 }
 
 .below_section
 {
 	border-radius: 25px;
-	text-align: center;
-	margin-top: 10px;
-	box-sizing: border-box;
-	border: 4px solid;
-	width: auto;
-	height:30pc;
-	align-self: center;
-	background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+	border: 5px solid;
+	margin : 10px;
+	padding: 1em;
 }
 
-footer{
-	/*background-color: yellow;*/
-	margin-bottom:10px;
-	margin-top: 10px;
-	border-radius: 25px;
-	align-self: center;
-	text-align: center;
-	position: relative;
-	border: 4px solid;
-	/*left: -15px;
-	right: 0px;
-	width: 100%;*/
-/*	box-shadow: 0 0 10px #252525;*/
-	padding: 5px;
-	background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+.display_days{
+	display: flex;
+	padding :em;
+	 /*position: fixed;*/
+    overflow-x: scroll;
+    top: 0;
+    bottom: 0;
+}
 
+.day_one{
+  border: 4px solid;
+	border-radius: 25px;
+	padding: 0.5em;
+	margin: 1.2em;
+}
+
+.day_two{
+  border: 4px solid;
+	border-radius: 25px;
+	padding: 0.5em;
+	margin: 1.2em;
+}
+
+.day_three{
+  border: 4px solid;
+	border-radius: 25px;
+	padding: 0.5em;
+	margin: 1.2em;
+}
+
+.day_four{
+  border: 4px solid;
+	border-radius: 25px;
+	padding: 0.5em;
+	margin: 1.2em;
+}
+
+.day_five{
+  border: 4px solid;
+	border-radius: 25px;
+	padding: 0.5em;
+	margin: 1.2em;
+}
+
+.day_six{
+  border: 4px solid;
+	border-radius: 25px;
+	padding: 0.5em;
+	margin: 1.2em;
+}
+
+.day_seven{
+  border: 4px solid;
+	border-radius: 25px;
+	padding: 0.5em;
+	margin: 1.2em;
 }
