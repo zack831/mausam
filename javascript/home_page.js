@@ -31,12 +31,13 @@ class Weather{
 				//console.log(dayname,icon,temp,description,humidity);
 
 				document.querySelector(`.day${index}`).innerText = dayname;
-				document.querySelector(`.d${index}_icon`).innerHTML = `<img src ="https://openweathermap.org/img/wn/"${icon}.png";/>`;
+				//console.log(document.querySelector(`.d${index}_icon`).innerHTML = `<img src ="https://openweathermap.org/img/wn/${icon}.png";/>`);
+				document.querySelector(`.d${index}_icon`).innerHTML = `<img src ="https://openweathermap.org/img/wn/${icon}.png";/>`
 				document.querySelector(`.d${index}_description`).innerText = description;
 				document.querySelector(`.d${index}_temperature`).innerText = temp + "°C";
 				document.querySelector(`.d${index}_humidity`).innerText = "Humidity "+humidity+"%";
 				document.querySelector(`.d${index}_speed`).innerText = "Wind Speed " + speed + " Km/h";
-				console.log(index);
+				//console.log(index);
 
 			}
 		});
@@ -83,10 +84,10 @@ class Weather{
 		const {icon,description} = data.weather[0];
 		const {temp,humidity} = data.main;
 		const {speed} = data.wind;
-		console.log(name,icon,description,temp,humidity,speed);
+		//console.log(name,icon,description,temp,humidity,speed);
 		//document.querySelector("body").style.backgroundImage = "url(https://source.unsplash.com/1600x900/?nature,"+description+")";
 		document.querySelector(`.city`).innerText = "Weather in " + name;
-		document.querySelector(".icon").innerHTML = `<img src ="https://openweathermap.org/img/wn/"${icon}.png";/>`;
+		document.querySelector(".icon").innerHTML = `<img src ="https://openweathermap.org/img/wn/${icon}.png";/>`;
 		document.querySelector(".description").innerText = description;
 		document.querySelector(".temperature").innerText = temp + "°C";
 		document.querySelector(".humidity").innerText = "Humidity "+humidity+"%";
