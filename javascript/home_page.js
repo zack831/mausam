@@ -96,7 +96,7 @@ class Weather{
 
 const value = new Weather("kolkata");
 
-document.querySelector(".logo_search button").addEventListener("submit",function()
+document.querySelector(".logo_search button").addEventListener("click",function()
 	{
 		const val = (document.querySelector(".search_bar").value);
 		const value = new Weather(val);

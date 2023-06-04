@@ -2,30 +2,44 @@
 <html lANG = "en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>About Mausam</title>
+	<title>MAUSAM</title>
 	<meta name = "viewport" content = "width=device-width" initial-scale = "1" user-scaleable = "1"/>
-	<meta name ="themecolour" content="#226DAA">
-	<link rel = "stylesheet" href = "/home/zack83/Dropbox/Tripura_University/mausam/css/start_page_style.css"/>
-	<link rel = "icon" sizes = "16X16 32X32 48X48" type="image/jpg" href="/home/zack83/Dropbox/Tripura_University/mausam/assets/icon.png"/>
+	<link rel = "stylesheet" href = "../css/about_page.css"/>
+	<link rel = "icon" sizes = "16X16 32X32 48X48" type="image/jpg" href="https://openweathermap.org/img/wn/02d.png"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+	<script src = "" defer></script>
 </head>
 
 <body>
-	<header>
-		<img id = "header_logo" src="/home/zack83/Dropbox/Tripura_University/mausam/assets/icon.png" width="70px" height="70px">
-		<h1>Indian Weather Service</h1>
-		<nav class="navigation_bar_header">
-			<ul >
-				<li><a href="./home_page.html">Home</a></li>
-				<li><a href="./cities_weather.html">Cities Weather</a></li>
-				<li><a href="./weather_history.html">Weather History</a></li>
-				<li><a href="./About_page.html">About</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main>
-		<p>
-			Developed and mantained by Rishav
-		</p>
-	</main>
+	<div class = "container">
+		<header class = "top_section">
+			<div class = "logo_search">
+				<img class = "header_img" src="../assets/icon.png" width="100px" height="100px">
+				<h1 class = head>Weather Services</h1>
+				<input type="text" class="search_bar", placeholder="Search City">
+					<button>
+						<svg
+		      			viewBox="0 0 24 24"
+		      			fill="currentColor"
+		      			height="1em"
+		      			width="1em"
+		      			{...props}
+		    			>
+		      			<path d="M15.5 12c2.5 0 4.5 2 4.5 4.5 0 .88-.25 1.71-.69 2.4l3.08 3.1L21 23.39l-3.12-3.07c-.69.43-1.51.68-2.38.68-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5m0 2a2.5 2.5 0 00-2.5 2.5 2.5 2.5 0 002.5 2.5 2.5 2.5 0 002.5-2.5 2.5 2.5 0 00-2.5-2.5M14 6.11L8 4v11.89l1 .35v.26c0 .64.09 1.26.26 1.84L8 17.9l-5.34 2.07-.16.03a.5.5 0 01-.5-.5V4.38c0-.23.15-.41.36-.48L8 2l6 2.1L19.34 2h.16a.5.5 0 01.5.5v9.31A6.48 6.48 0 0015.5 10c-.5 0-1 .06-1.5.17V6.11z" />
+		    			</svg>
+		    		</button>
+				</input>
+			</div>
+			<nav class=" navigation">
+				<ul>
+					<li><a href="./home_page.html">Home</a></li>
+					<li><a href="./cities_weather.html">Cities Weather</a></li>
+					<li><a href="./weather_history.html">Weather History</a></li>
+					<li><a href="./About_page.html">About Us</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
 </body>
