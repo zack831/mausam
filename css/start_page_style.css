@@ -81,13 +81,59 @@ a{
 	padding: 10px; 
 }
 
-.left_section
+.right_section
 {
 	border-radius: 25px;
 	border: 5px solid;
-  	text-align: center;
 	margin : 10px;
-	width: 40em;
+	width: 38em;
+	height: 20em;
+	padding: 1em;
+}
+
+.major_cities{
+	display: flex;
+	flex-direction: column;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+	height: 15em;
+  padding-right: 0.2em	
+}
+
+.city1{
+	border: 2px solid;
+	border-radius: 10px;
+	margin:1.5px;
+	padding-left: 5px;
+}
+
+.city2{
+	border: 2px solid;
+	border-radius: 10px;
+	margin:1.5px;
+	padding-left: 5px;
+}
+
+.city3{
+	border: 2px solid;
+	border-radius: 10px;
+	margin:1.5px;
+	padding-left: 5px;
+}
+
+.city4{
+	border: 2px solid;
+	border-radius: 10px;
+	margin:1.5px;
+	padding-left: 5px;
+}
+
+.city5{
+	border: 2px solid;
+	border-radius: 10px;
+	margin:1.5px;
+	padding-left: 5px;
 }
 
 .below_section
@@ -100,7 +146,6 @@ a{
 
 .display_days{
 	display: flex;
-	padding :em;
 	 /*position: fixed;*/
     overflow-x: scroll;
     top: 0;
