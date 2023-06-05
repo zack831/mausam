@@ -2,7 +2,7 @@ body
 {
 	font-family: 'Roboto Mono', monospace;
 /*	background-color: #4158D0;*/
-	height: 100vh;
+	background-size: cover;
 
 /*	background-image : url('https://source.unsplash.com/1600x900/?weather');*/
 }
@@ -101,35 +101,35 @@ a{
   padding-right: 0.2em	
 }
 
-.city1{
+.Mcity1{
 	border: 2px solid;
 	border-radius: 10px;
 	margin:1.5px;
 	padding-left: 5px;
 }
 
-.city2{
+.Mcity2{
 	border: 2px solid;
 	border-radius: 10px;
 	margin:1.5px;
 	padding-left: 5px;
 }
 
-.city3{
+.Mcity3{
 	border: 2px solid;
 	border-radius: 10px;
 	margin:1.5px;
 	padding-left: 5px;
 }
 
-.city4{
+.Mcity4{
 	border: 2px solid;
 	border-radius: 10px;
 	margin:1.5px;
 	padding-left: 5px;
 }
 
-.city5{
+.Mcity5{
 	border: 2px solid;
 	border-radius: 10px;
 	margin:1.5px;
