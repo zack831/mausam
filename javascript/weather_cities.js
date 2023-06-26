@@ -45,9 +45,7 @@ class Weather_cities{
 
 	major_cities_display(data,i){
 
-		console.log(data)
-
-
+		//console.log(data)
 		const temp = data.current.temp;
 		const icon = data.daily[0].weather[0].icon;
 		const summary = data.daily[0].summary;

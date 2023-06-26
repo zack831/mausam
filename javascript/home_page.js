@@ -133,7 +133,7 @@ class Weather{
 		const {temp,humidity} = data.main;
 		const {speed} = data.wind;
 		//console.log(name,icon,description,temp,humidity,speed);
-		document.querySelector("body").style.backgroundImage = "url(https://source.unsplash.com/1600x900/?nature,"+description+")";
+		document.querySelector('body').style.backgroundImage = "url(https://source.unsplash.com/1600x900/?"+description+")";
 		document.querySelector(`.city`).innerText = "Weather in " + name;
 		document.querySelector(".icon").innerHTML = `<img src ="https://openweathermap.org/img/wn/${icon}.png";/>`;
 		document.querySelector(".description").innerText = description;
@@ -143,7 +143,7 @@ class Weather{
 	}
 }
 
-const value = new Weather("kolkata");
+const value = new Weather("Dimapur");
 
 document.querySelector(".logo_search button").addEventListener("click",function()
 	{
