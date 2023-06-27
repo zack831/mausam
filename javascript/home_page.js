@@ -124,6 +124,7 @@ class Weather{
 				+"&units=metric"
 			)
 		.then((response) => response.json())
+		// .then((data) => console.log(data))
 		.then((data) => this.displayWeather(data));
 	}
 
